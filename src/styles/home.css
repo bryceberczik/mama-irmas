@@ -1,0 +1,212 @@
+.first-section {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 150px;
+}
+
+.about-us {
+
+    width: 450px;
+}
+
+.about-us p {
+
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.serving-austin {
+
+    margin-bottom: 50px;
+}
+
+.serving-austin h2 {
+
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 450;
+}
+
+.home-intro {
+
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 450;
+}
+
+.first-home-photo {
+
+    display: flex;
+    justify-content: center;
+}
+
+.first-home-photo img {
+
+    height: 800px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 0 55px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+.extra-home-btns {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0 100px 0;
+}
+
+.find-us {
+
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find-us h1 {
+
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 450;
+    margin-bottom: 50px;
+}
+
+.click-location {
+    transition: ease 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #588157;
+    height: 60px;
+    width: 500px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+.click-location h1 {
+    margin: 0;
+    line-height: 1;
+}
+
+.click-location:hover {
+
+    background-color: #3a5a40;
+}
+
+/* AJSIDJHASOIDJAISOJDOIASJDOIASJDOIASJDOIASJDOIASJDOIAJSD */
+
+.friendly-staff {
+
+    text-align: center;
+    margin: 70px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.friendly-staff h1 {
+
+    font-weight: 450;
+}
+
+.menu-extra {
+
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-extra h1 {
+
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 450;
+    margin-bottom: 50px;
+}
+
+.click-menu {
+    transition: ease 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #588157;
+    height: 60px;
+    width: 500px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+.click-menu h1 {
+    margin: 0;
+    line-height: 1;
+}
+
+.click-menu:hover {
+
+    background-color: #3a5a40;
+}
+
+.food-examps {
+    margin: 100px 0 0 0;
+}
+
+.line-1 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.line-1-text {
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.line-1 img {
+
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+.reviews {
+
+    margin: 100px 0;
+}
+
+.reviews h1 {
+
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 450;
+}
