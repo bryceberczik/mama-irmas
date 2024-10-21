@@ -19,9 +19,16 @@
     font-weight: 400;
 }
 
+.line-break {
+
+    border: 1px solid grey;
+    width: 75%;
+    margin: 0 auto;
+}
+
 .serving-austin {
 
-    margin-bottom: 50px;
+    margin: 50px 0;
 }
 
 .serving-austin h2 {
@@ -42,6 +49,7 @@
 
     display: flex;
     justify-content: center;
+    margin-bottom: 75px; 
 }
 
 .first-home-photo img {
@@ -172,7 +180,7 @@
 }
 
 .food-examps {
-    margin: 100px 0 0 0;
+    margin: 100px 0 100px 0;
 }
 
 .line-1 {
@@ -202,10 +210,20 @@
 .reviews {
 
     margin: 100px 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .reviews h1 {
 
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 450;
+}
+
+.reviews p {
+
+    margin-top: 50px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 450;

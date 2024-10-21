@@ -7,8 +7,7 @@ const Home = () => {
     <div className="home-container">
       <div className="first-section">
         <div className="first-section-intro">
-          <h1 className="home-intro">Welcome to Mama Irma's,</h1>
-          <h1 className="home-intro">Enjoy your stay.</h1>
+          <h1 className="home-intro">SLOGAN HERE</h1>
         </div>
         <div className="about-us">
           <p>
@@ -19,6 +18,7 @@ const Home = () => {
           </p>
         </div>
       </div>
+      <div className="line-break"></div>
       <div className="serving-austin">
         <h2>
           Serving authentic Mexican cuisine to the heart of Austin, Texas.
@@ -44,6 +44,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="line-break"></div>
       <div className="extra-home-btns">
         <div className="find-us">
           <h1>Find us here</h1>
@@ -66,8 +67,10 @@ const Home = () => {
         <img src={firstPhoto} alt="foodtruck" />
         <img src={firstPhoto} alt="foodtruck" />
       </div>
+      <div className="line-break"></div>
       <div className="reviews">
         <h1>Reviews</h1>
+        <p>NOT IMPLEMENTED YET</p>
       </div>
     </div>
   );
