@@ -46,3 +46,9 @@ header h1 {
 
     color: #555
 }
+
+.activeNav {
+
+    color: inherit;
+    text-decoration-color: #588157;
+}

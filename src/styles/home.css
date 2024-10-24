@@ -221,10 +221,32 @@
     font-weight: 450;
 }
 
-.reviews p {
+.review-container {
 
-    margin-top: 50px;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 450;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px; 
+}
+
+.social-platforms {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px; 
+}
+
+.icon-style {
+
+    font-size: 50px;
+    margin: 0 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: #588157;
+}
+
+.icon-style:hover {
+
+    color: #3a5a40;
 }

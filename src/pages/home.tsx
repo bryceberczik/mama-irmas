@@ -1,6 +1,10 @@
 import "../styles/home.css";
 import firstPhoto from "../images/foodtruck_1.jpeg";
 import taco from '../images/tacos.jpg';
+import ReviewCard from "../components/review-card/reviewCard";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTiktok, faInstagram, faYelp } from "@fortawesome/free-brands-svg-icons";
 
 const Home = () => {
   return (
@@ -70,7 +74,16 @@ const Home = () => {
       <div className="line-break"></div>
       <div className="reviews">
         <h1>Reviews</h1>
-        <p>NOT IMPLEMENTED YET</p>
+        <div className="review-container">
+        <ReviewCard name="Bryce Berczik" comment="These tacos are to die for!"/>
+        <ReviewCard name="Brooke Bell" comment="These tacos saved my life.." />
+        <ReviewCard name="Steve Berczik" comment="I own this company lol" />
+        </div>
+      </div>
+      <div className="social-platforms">
+      <FontAwesomeIcon icon={faTiktok} className="icon-style" />
+      <FontAwesomeIcon icon={faInstagram} className="icon-style" />
+      <FontAwesomeIcon icon={faYelp} className="icon-style" />
       </div>
     </div>
   );
