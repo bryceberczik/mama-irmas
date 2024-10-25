@@ -6,6 +6,10 @@ import App from "./App.tsx";
 
 import Error from "./pages/error.tsx";
 import Home from "./pages/home.tsx";
+import LocationHours from "./pages/location&Hours.tsx";
+import Menu from "./pages/menu.tsx";
+import OrderOnline from "./pages/orderOnline.tsx";
+import Contact from "./pages/contact.tsx";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +21,22 @@ const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
+      {
+        path: 'location&hours',
+        element: <LocationHours />
+      },
+      {
+        path: 'menu',
+        element: <Menu />
+      },
+      {
+        path: '/orderonline',
+        element: <OrderOnline />
+      },
+      {
+        path: '/contact',
+        element: <Contact />
+      }
     ],
   },
 ]);

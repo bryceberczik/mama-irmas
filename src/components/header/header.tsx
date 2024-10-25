@@ -12,20 +12,47 @@ const Header = () => {
         </div>
         <div className="header-center">
           <h1 className="header-text">
-            {" "}
             <Link
               to="/"
-              className={currentPage === "/" ? "activeNav" : "header-text"}
+              className={currentPage === "/" ? "activeNav" : "restNav"}
             >
               HOME
             </Link>
           </h1>
-          <h1 className="header-text">LOCATION & HOURS</h1>
-          <h1 className="header-text">MENU</h1>
-          <h1 className="header-text">ORDER ONLINE</h1>
+          <h1 className="header-text">
+            <Link
+              to="/location&hours"
+              className={currentPage === "/location&hours" ? "activeNav" : "restNav"}
+            >
+              LOCATION & HOURS
+            </Link>
+          </h1>
+          <h1 className="header-text">
+            <Link
+              to="/menu"
+              className={currentPage === "/menu" ? "activeNav" : "restNav"}
+            >
+              MENU
+            </Link>
+          </h1>
+          <h1 className="header-text">
+            <Link
+              to="/orderonline"
+              className={currentPage === "/orderonline" ? "activeNav" : "restNav"}
+            >
+              ORDER ONLINE
+            </Link>
+          </h1>
         </div>
         <div className="header-right">
-          <h1 className="header-text">CONTACT US</h1>
+        <h1 className="header-text">
+            <Link
+              to="/contact"
+              className={currentPage === "/contact" ? "activeNav" : "restNav"}
+            >
+              CONTACT
+            </Link>
+          </h1>
         </div>
       </header>
     </div>
