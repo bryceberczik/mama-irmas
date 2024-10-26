@@ -27,6 +27,14 @@
     margin: 20px 0;
 }
 
+.hours-title {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 450;
+    margin: 5px 0;
+    font-size: 25px;
+}
+
 .location-container h2 {
 
     font-family: 'Poppins', sans-serif;

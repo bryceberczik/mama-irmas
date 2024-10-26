@@ -5,6 +5,7 @@ const LocationHours = () => {
     <div className="hours-container">
     <div className="location-container">
         <h1 className="location-title">Location & Hours</h1>
+        <h1 className="hours-title">(INSERT LOCATION HERE)</h1>
         <h2>Current hours (until sold out)</h2>
       <div className="times">
         <div className="day-container">

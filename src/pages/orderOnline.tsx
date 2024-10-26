@@ -4,8 +4,10 @@ const OrderOnline = () => {
 
     return(
 
-        <div>
-
+        <div className='orderonline-container'>
+            <div className="message-container">
+            <h1>Going to add a way to order online once the company has started.</h1>
+            </div>
         </div>
     )
 };
