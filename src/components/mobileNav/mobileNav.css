@@ -1,0 +1,37 @@
+.mobilenav-container img {
+
+    width: 100px;
+}
+
+.hamburger-menu {
+
+    font-size: 30px;
+}
+
+.mobilenav-container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.search-icon {
+
+    font-size: 20px;
+}
+
+.canvOpt {
+
+    color: black;
+    text-decoration: none;
+    margin: 50px 0 50px 0;
+    text-align: left;
+    cursor: pointer;
+    transition: ease 0.3s;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .canvOpt:hover {
+
+    color: grey;
+  }
